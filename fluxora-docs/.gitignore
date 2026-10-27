@@ -1,0 +1,38 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Java / Maven / Gradle
+target/
+build/
+.gradle/
+*.class
+
+# Node
+node_modules/
+dist/
+coverage/
+.vite/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and local runtime data
+*.log
+data/
+postgres-data/
+redis-data/
+kafka-data/
+
+# Test output
+test-results/
+playwright-report/
